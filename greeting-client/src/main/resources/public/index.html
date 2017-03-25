@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--  the HTML page that will load consume the service running on localhost, port 8080 -->
+<html>
+<head>
+<title>Hello CORS</title>
+<!-- loads the minified jQuery library (jquery.min.js) from a content delivery network (CDN) so that you don’t have to download jQuery and place it in your project. 
+		It also loads the controller code (hello.js) from the application’s path. -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="hello.js"></script>
+</head>
+
+<body>
+	<div>
+		<!-- These class attributes help jQuery to reference the HTML elements 
+			and update the text with the values from the id and content properties of the JSON received from the REST service. -->
+		<p class="greeting-id">The ID is</p>
+		<p class="greeting-content">The content is</p>
+	</div>
+</body>
+</html>
