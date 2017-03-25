@@ -8,6 +8,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * To run the client, we need to serve it from a web server, in our case an
  * embedded Tomcat server.
  * 
+ * <p>
+ * Spring Boot WebMvcAutoConfiguration will set index.html as the default
+ * welcome page.
+ * <p>
+ * 
  * @author mugiwaranorufi
  */
 @SpringBootApplication
